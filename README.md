@@ -42,10 +42,10 @@ If you enter any command that the program doesn't know like "turn off my pc", it
 command. And also, be cautious with the restart command. if you only type "restart" and don't type "pc" or "computer" after it,
 VortEX will not recognize the command because saying restart can mean different things such as restarting an app instead of PC.
 And they are also added for safety. So that accidenly typing "restart" can't restart your PC.
-
-For knowing the requirements to run this script, check out Requirements.txt for more.
-
-Thanks!
 command. And also, be cautious with the restart command. if you only type "restart" and don't type "pc" or "computer" after it,
 VortEX will not recognize the command because saying restart can mean different things such as restarting an app instead of PC.
-And they are also added for safety. So that accidenly typing "restart" can't restart your PC.
+And they are also added for safety. So that accidently typing "restart" can't restart your PC.
+
+For knowing the requirements to run this script, check out Requirements.txt for more. Run main.py to run the script.
+
+Thanks!
