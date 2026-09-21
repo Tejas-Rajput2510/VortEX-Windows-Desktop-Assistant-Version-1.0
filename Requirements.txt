@@ -1,0 +1,4 @@
+Requirements for running main.py:
+
+1. Windows 10 or above
+2. Python 3
