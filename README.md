@@ -28,6 +28,7 @@ Windows 11. If you love this project, you can give it a star on github.
 19. restart pc or restart computer - this will restart your computer, so use it carefully
 20. shutdown - this will shutdown your computer, so use it carefully
 21. exit, quit, or close - this will exit the program
+22. commands - lists all the commands available
 
 ## Additional features
 You can also type commands like "What is the time?", it will respond by giving you exact date and time.
