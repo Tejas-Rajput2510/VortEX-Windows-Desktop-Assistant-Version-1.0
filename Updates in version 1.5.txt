@@ -1,0 +1,17 @@
+Updates in VortEX version 1.5 -
+
+Error Handeling:
+
+In this new version of VortEX, we have added safe error handeling in the code so if any issue appears while running the code,
+it will show you the exact error, which can prevent problems of a black screen flashing and exiting quickly. It will show the full
+error that appeared so that you can search it online. For example, any syntax error, if you change update the code with syntax
+errors. After showing the error, program will prompt you to press enter to exit. If you press enter, the program will exit.
+This ensures safety for the program and better error handeling. 
+
+Feature:
+
+We have added a new command "commands" in the program by which, vortex will give you all the commmands that you can use in the 
+program. It is essential for people who are new to it and don't know how to use it properly. 
+
+We'll try bringing more good updates to this script. If you want a fueature in it, you can comment about it directly on github!
+Or if you find any bugs, please report it in github so that we can fix it.
