@@ -15,3 +15,7 @@ program. It is essential for people who are new to it and don't know how to use 
 
 We'll try bringing more good updates to this script. If you want a fueature in it, you can comment about it directly on github!
 Or if you find any bugs, please report it in github so that we can fix it.
+
+Minor Bug Fixes:
+
+Fixed some code bugs such as typos and features.
