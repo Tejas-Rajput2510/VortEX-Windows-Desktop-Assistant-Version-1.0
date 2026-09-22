@@ -84,6 +84,14 @@ try:
             time.sleep(1)
             os.system("start explorer")
             continue
+        elif "search" in message:
+            query = input("VortEX: Enter the search you want: ")
+            query = urllib.parse.quote(query)
+            readable_query = query.replace("%20", " ")
+            print(f"VortEX: Searching for {query}...")
+            time.sleep(1)
+            webbrowser.open(f"https://www.google.com/search?q={query}")
+            continue
         elif "google sheets" in message:
             print("VortEX: Opening Google Sheets...")
             time.sleep(1)
@@ -108,14 +116,6 @@ try:
             print("VortEX: Opening copilot...")
             time.sleep(1)
             webbrowser.open("https://copilot.microsoft.com")
-        elif "search" in message:
-            query = input("VortEX: Enter the search you want: ")
-            query = urllib.parse.quote(query)
-            readable_query = query.replace("%20", " ")
-            print(f"VortEX: Searching for {query}...")
-            time.sleep(1)
-            webbrowser.open(f"https://www.google.com/search?q={query}")
-            continue
         elif "paint" in message:
             print("VortEX: Starting Microsoft Paint...")
             time.sleep(1)
