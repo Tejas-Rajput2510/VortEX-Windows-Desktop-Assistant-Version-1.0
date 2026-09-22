@@ -106,6 +106,7 @@ try:
             print(f"VortEX: Searching for {query}...")
             time.sleep(1)
             webbrowser.open(f"https://www.google.com/search?q={query}")
+            continue
         elif "paint" in message:
             print("VortEX: Starting Microsoft Paint...")
             time.sleep(1)
@@ -129,7 +130,7 @@ try:
         elif "google sheets" in message:
             print("VortEX: Opening Google Sheets...")
             time.sleep(1)
-            webbrowser.open("https://docs.googe.com/spreadsheets")
+            webbrowser.open("https://docs.google.com/spreadsheets")
         elif "google docs" in message or "google documents" in message:
             print("VortEX: Opening Google Docs...")
             time.sleep(1)
