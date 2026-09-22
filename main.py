@@ -84,6 +84,14 @@ try:
             time.sleep(1)
             os.system("start explorer")
             continue
+        elif "google sheets" in message:
+            print("VortEX: Opening Google Sheets...")
+            time.sleep(1)
+            webbrowser.open("https://docs.google.com/spreadsheets")
+        elif "google docs" in message or "google documents" in message:
+            print("VortEX: Opening Google Docs...")
+            time.sleep(1)
+            webbrowser.open("https://docs.google.com")
         elif "google" in message:
             print("VortEX: Opening google...")
             time.sleep(1)
@@ -128,14 +136,6 @@ try:
                 os.system("start excel")
             except:
                 print("VortEX: There was a problem opening Microsoft Excel. You may not have Excel installed on your PC.")
-        elif "google sheets" in message:
-            print("VortEX: Opening Google Sheets...")
-            time.sleep(1)
-            webbrowser.open("https://docs.google.com/spreadsheets")
-        elif "google docs" in message or "google documents" in message:
-            print("VortEX: Opening Google Docs...")
-            time.sleep(1)
-            webbrowser.open("https://docs.google.com")
         elif "cmd" in message or "command prompt" in message:
             print("VortEX: Opening Command Prompt...")
             time.sleep(1)
